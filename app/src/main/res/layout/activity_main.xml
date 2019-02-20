@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             style="@style/Widget.AppCompat.Button.Colored"
-            android:text="Kayıt Ol"/>
+            android:text="çıkıp yap"/>
 
         <android.support.design.button.MaterialButton
             android:id="@+id/btn_aramayap"
@@ -49,6 +49,14 @@
             android:layout_weight="1"
             style="@style/Widget.AppCompat.Button.Colored"
             android:text="Arama Yap"/>
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/btn_cikis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Çıkış"/>
 
     </LinearLayout>
 

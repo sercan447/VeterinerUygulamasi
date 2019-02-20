@@ -5,8 +5,8 @@ public class AsiModel{
 	private String petid;
 	private String petresim;
 	private String pettur;
-	private Object asitarih;
-	private Object asiisim;
+	private String asitarih;
+	private String asiisim;
 	private String petisim;
 	private String petcins;
 
@@ -42,19 +42,19 @@ public class AsiModel{
 		return pettur;
 	}
 
-	public void setAsitarih(Object asitarih){
+	public void setAsitarih(String asitarih){
 		this.asitarih = asitarih;
 	}
 
-	public Object getAsitarih(){
+	public String getAsitarih(){
 		return asitarih;
 	}
 
-	public void setAsiisim(Object asiisim){
+	public void setAsiisim(String asiisim){
 		this.asiisim = asiisim;
 	}
 
-	public Object getAsiisim(){
+	public String getAsiisim(){
 		return asiisim;
 	}
 

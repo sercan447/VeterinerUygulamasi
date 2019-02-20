@@ -31,4 +31,13 @@ public class GetSharedPreferences {
         editor.putString("mailadres",mailAdres);
         editor.commit();
     }
+    public void DeleteToSession()
+    {
+        sharedPreferences = activity.getApplicationContext().getSharedPreferences("session",0);
+       SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.clear();
+        editor.commit();
+    }
+
+
 }

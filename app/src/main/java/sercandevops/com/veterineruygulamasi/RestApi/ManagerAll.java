@@ -71,4 +71,10 @@ public class ManagerAll extends BaseManager {
         Call<List<AsiModel>> x = getRestApi().getAsilar(mus_id);
         return x;
     }
+
+    public Call<List<AsiModel>> asiGecmisi(String musId, String petId)
+    {
+        Call<List<AsiModel>> x = getRestApi().getAsGecmisi(musId,petId);
+        return x;
+    }
 }

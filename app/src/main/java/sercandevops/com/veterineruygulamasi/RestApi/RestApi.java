@@ -48,6 +48,9 @@ public interface RestApi {
     @GET("asitakip.php")
     public Call<List<AsiModel>> getAsilar(@Query("mus_id") String mus_id);
 
+    @GET("gecmisasi.php")
+    public Call<List<AsiModel>> getAsGecmisi(@Query("mus_id") String mus_id,@Query("pet_id") String pet_id);
+
 
 
 }
